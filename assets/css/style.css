@@ -1,0 +1,18 @@
+body {
+    background-image: url(../images/landmarks.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    color: gray;
+}
+
+.container {
+    margin:auto;
+    text-align: center;
+}
+
+#currentWord {
+    letter-spacing: 12px;
+}
+
