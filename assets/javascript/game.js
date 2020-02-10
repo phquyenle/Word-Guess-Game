@@ -30,8 +30,8 @@ function checkForLetter(letter){
     var foundLetter=false;
     var correctSound= document.createElement("audio");
     var incorrectSound= document.createElement("audio");
-    correctSound.setAttribute("source", "assets/sounds/chimes-glassy.mp3");
-    incorrectSound.setAttribute("source","assets/sounds/glitch-in-the-matrix.mp3");
+    correctSound.setAttribute("src", "assets/sounds/chimes-glassy.mp3");
+    incorrectSound.setAttribute("src","assets/sounds/glitch-in-the-matrix.mp3");
 
     for (var i=0, q=wordToMatch.length; i<q; i++) {
         if (letter === wordToMatch[i]) {
